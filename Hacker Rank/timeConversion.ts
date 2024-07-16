@@ -31,7 +31,7 @@ export function timeConversion(ampmTime: string): string {
         } 
     } else {
         if (meridian === "PM") {
-            militaryTime += (parseInt(hh) + 12).toString() + ":"
+            militaryTime += (parseInt(hh) + 12).toString() + ":";
         } else {
             militaryTime += hh + ":";
         }
